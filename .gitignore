@@ -1,6 +1,5 @@
-/node_modules
-/.vscode
-yarn-error.log
+node_modules
+.vscode
 coverage
 dist
 build

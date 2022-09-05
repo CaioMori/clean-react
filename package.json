@@ -5,7 +5,10 @@
   "author": "Caio Mori <caiomori22@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest -- --watch",
+    "test:staged": "jest -- --findRelatedTests",
+    "test:ci": "jest -- --coverage"
   },
   "devDependencies": {
     "@types/jest": "^29.0.0",

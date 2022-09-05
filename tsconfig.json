@@ -23,7 +23,7 @@
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "skipLibCheck": true,
     "paths": {
       "@/*": ["src/*"]
